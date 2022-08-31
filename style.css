@@ -1,0 +1,264 @@
+body,html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+.navbar {
+  background: #115f45;
+  padding: 2rem;
+}
+nav .navbar-brand div {
+  color: #fff;
+  font-weight: 300;
+  font-style: oblique;
+  letter-spacing: 0.01px;
+}
+nav .navbar-brand div:hover {
+  color: #06af6e;
+}
+.navbar .navbar-nav i {
+  font-size: 1.5rem;
+  color: #06af6e;
+}
+.navbar .d-flex i {
+  font-size: 1rem;
+  color: #fff;
+}
+.navbar .d-flex i:hover {
+  font-size: 1rem;
+  color: #06af6e;
+}
+.navbar .collapse {
+  margin-right: 2rem;
+}
+.navbar .nav-brand,
+.nav-link,
+ul a {
+  font-size: 1rem;
+  color: #fff;
+}
+.navbar .nav-link {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.navbar .nav-brand:hover {
+  font-size: 1.5rem;
+  color: #06af6e;
+}
+
+.navbar ul a:hover:hover {
+  color: #06af6e;
+}
+.teas {
+  background: #06af6e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+.teas h4 a {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.teas h4 a:hover {
+  color: #115f45;
+}
+.study {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+}
+.study h3 {
+  color: #2c2d30;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.01px;
+}
+.study p {
+  color: #2c2d30;
+  font-size: 1.5rem;
+  letter-spacing: 0.02px;
+}
+.study .line1 {
+  width: 40%;
+}
+.study .button {
+  background-color: #3f51b5; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.study .button:hover {
+  background-color: #06af6e;
+  transition: 0.3s ease-in;
+}
+
+.study .button2 {
+  width: 70%;
+}
+
+.rewards .dot-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.rewards .dot-1 {
+  padding: 2rem;
+}
+.rewards .dot-1 .image {
+  margin-right: 2rem;
+}
+.rewards {
+  background-color: #efefef;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.rewards .text h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.rewards .text p {
+  font-size: 1.5rem;
+  letter-spacing: 0.02px;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+}
+.rewards .dot-2 a {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1rem;
+  color: #2c2d30;
+}
+.rewards .dot-2 a:hover {
+  background-color: #06af6e;
+  color: white;
+  transition: 2ms;
+}
+.section-feature h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    font-weight: 700;
+    color: #2c2d30;
+    text-transform: uppercase;
+}
+.section-feature .card {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  border-radius: 20px;
+  transition: transform 0.3s;
+}
+.section-feature .card:hover {
+  transform: translateY(-15px);
+  transition: transform 0.3s;
+}
+.section-feature .card .text1 {
+  font-size: 13px;
+  color: #cbcbcb;
+}
+.section-feature .card .info {
+  line-height: 17px;
+}
+.section-feature .card .star {
+  color: #fbc02d;
+}
+.section-feature .card .cost span {
+  color: #fb3531;
+  font-weight: bold;
+  font-size: 20px;
+}
+.section-feature .card .shoe {
+  background: #dc3545;
+}
+.section-feature .card .shirt-cost span {
+  color: #286783;
+  font-weight: bold;
+  font-size: 20px;
+}
+.section-feature .card .shirt {
+  background: #286783;
+}
+.section-feature .card .sneakers-cost span {
+  color: #0012b2;
+  font-weight: bold;
+  font-size: 20px;
+}
+.section-feature .card .sneakers {
+  background: #0012b2;
+}
+.section-feature .card .bracelet-cost span {
+  color: #31fb6a;
+  font-weight: bold;
+  font-size: 20px;
+}
+.section-feature .card .bracelet {
+  background: #31fb6a;
+}
+.shirt:hover,
+.sneakers:hover,
+.bracelet:hover,
+.shoe:hover {
+  opacity: 0.8;
+}
+.section-feature .card .cursor {
+  cursor: pointer;
+  border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*for mobile */
+@media (max-width: 800px) {
+  .study {
+    display: flex;
+    flex-direction: column;
+  }
+  .study .line1 {
+    width: 100%;
+  }
+
+  .study .button2 {
+    width: 100%;
+  }
+  .rewards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .rewards .dot-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+}
